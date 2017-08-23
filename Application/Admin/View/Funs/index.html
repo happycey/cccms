@@ -1,0 +1,41 @@
+<extend name="Public:base" />
+<block name="header-end">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/page.css" />
+</block>
+
+<block name="body">
+<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 自定义功能 <span class="c-gray en">&gt;</span> 函数管理 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+<div class="page-container">
+    <a herf="javascript:;" class="t_fun btn btn-success radius l" style="margin:10px;">func_get_args</a>
+</div>
+<div class="ncap-form-default" style="display:none;">
+</div>
+</block>
+
+<block name="footer-end">
+<script type="text/javascript" src="__PUBLIC__/js/layer/layer.js"></script>
+<script type="text/javascript">
+$(function(){
+	$(".t_fun").click(function(){
+		var fun_name = $(this).html();
+		var url = "{:U('to_ajax')}";
+        $.ajax({
+            url: url,
+            type: 'post',
+            data: {'fun_name':fun_name},
+            success: function(data) {
+            	$(".ncap-form-default").html('');
+            	$(".ncap-form-default").append(data);
+            	layer.open({
+                    type: 1,
+                    skin: 'layui-layer-rim', //加上边框
+                    area: ['420px', '240px'], //宽高
+                    title: fun_name + '：动态获取函数的传入参数',
+                    content: $('.ncap-form-default')
+                });
+            }
+        });
+	});
+});
+</script> 
+</block>

@@ -1,0 +1,2 @@
+[22-Aug-2017 21:02:55 PRC] PHP Fatal error:  Call to a member function show() on null in F:\www\one\Runtime\Cache\Admin\6f3419767c220057c3be290993994453.php on line 73
+[22-Aug-2017 21:30:51 PRC] PHP Fatal error:  Call to undefined function Admin\Controller\foo() in F:\www\one\Application\Admin\Controller\FunsController.class.php on line 17

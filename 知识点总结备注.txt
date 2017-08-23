@@ -1,0 +1,24 @@
+1.下拉框，搜索：
+(1)引用文件：
+<script type="text/javascript" src="__PUBLIC__/js/select/jquery.searchableSelect.js"></script>
+<link href="__PUBLIC__/js/select/jquery.searchableSelect.css" rel="stylesheet" type="text/css"/>
+(2)添加前端代码：
+$(function(){
+	$('select').searchableSelect();
+});
+
+2.layer弹框：
+(1)引用文件：
+<script type="text/javascript" src="__PUBLIC__/js/layer/layer.js"></script>
+(2)添加前端代码：
+$("#import").click(function(){
+	layer.open({
+        type: 1,
+        skin: 'layui-layer-rim', //加上边框
+        area: ['420px', '240px'], //宽高
+        title: '商品批量导入',
+        content: $('.ncap-form-default')
+    });
+});
+
+3.csv的导入导出功能：F:/wamp/www/one/Application/Admin/Controller/GoodsController.class.php

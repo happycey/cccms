@@ -1,0 +1,159 @@
+[ 2017-08-19T19:37:49+08:00 ] 127.0.0.1 /admin.php/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-19T19:37:49+08:00 ] 127.0.0.1 /admin.php/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant login - assumed 'login' F:\www\one\Runtime\Cache\Admin\aa8c08aba5dc33a3751e6062d74e573c.php 第 27 行.
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' F:\www\one\Runtime\Cache\Admin\aa8c08aba5dc33a3751e6062d74e573c.php 第 43 行.
+NOTIC: [8] Use of undefined constant login - assumed 'login' F:\www\one\Runtime\Cache\Admin\aa8c08aba5dc33a3751e6062d74e573c.php 第 91 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-19T19:37:49+08:00 ] 127.0.0.1 /admin.php/Index/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-19T19:38:24+08:00 ] 127.0.0.1 /admin.php/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `one_users` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `one_users` WHERE `username` = 'admin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `one_users` [ RunTime:0.0040s ]
+SQL: UPDATE `one_users` SET `last_login_ip`='127.0.0.1',`last_login_time`='1503142704' WHERE (  `username` = 'admin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' ) [ RunTime:0.0030s ]
+
+[ 2017-08-19T19:38:24+08:00 ] 127.0.0.1 /admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: v F:\www\one\Runtime\Cache\Admin\f34445eb39ab30c5f03f8e12766e7fc5.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-19T19:38:24+08:00 ] 127.0.0.1 /admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: v F:\www\one\Runtime\Cache\Admin\f34445eb39ab30c5f03f8e12766e7fc5.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-08-19T19:38:24+08:00 ] 127.0.0.1 /admin.php/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: v F:\www\one\Runtime\Cache\Admin\f7bf8ce06f93e2490e99db6aadbe1839.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-19T19:38:28+08:00 ] 127.0.0.1 /admin.php/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `one_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `one_goods` ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `one_goods` WHERE `id` > 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: listRows F:\www\one\Application\Admin\Controller\GoodsController.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: title F:\www\one\Runtime\Cache\Admin\384419fad210068332edd7f4d3e51504.php 第 35 行.
+NOTIC: [8] Undefined variable: pos_id F:\www\one\Runtime\Cache\Admin\384419fad210068332edd7f4d3e51504.php 第 42 行.
+NOTIC: [8] Undefined index: rec_status F:\www\one\Runtime\Cache\Admin\384419fad210068332edd7f4d3e51504.php 第 68 行.
+NOTIC: [8] Undefined index: rec_status F:\www\one\Runtime\Cache\Admin\384419fad210068332edd7f4d3e51504.php 第 68 行.
+NOTIC: [8] Undefined index: rec_status F:\www\one\Runtime\Cache\Admin\384419fad210068332edd7f4d3e51504.php 第 68 行.
+NOTIC: [8] Undefined index: rec_status F:\www\one\Runtime\Cache\Admin\384419fad210068332edd7f4d3e51504.php 第 68 行.
+NOTIC: [8] Undefined index: rec_status F:\www\one\Runtime\Cache\Admin\384419fad210068332edd7f4d3e51504.php 第 68 行.
+NOTIC: [8] Undefined index: rec_status F:\www\one\Runtime\Cache\Admin\384419fad210068332edd7f4d3e51504.php 第 68 行.
+NOTIC: [8] Undefined index: rec_status F:\www\one\Runtime\Cache\Admin\384419fad210068332edd7f4d3e51504.php 第 68 行.
+NOTIC: [8] Undefined index: rec_status F:\www\one\Runtime\Cache\Admin\384419fad210068332edd7f4d3e51504.php 第 68 行.
+NOTIC: [8] Undefined index: rec_status F:\www\one\Runtime\Cache\Admin\384419fad210068332edd7f4d3e51504.php 第 68 行.
+NOTIC: [8] Undefined index: rec_status F:\www\one\Runtime\Cache\Admin\384419fad210068332edd7f4d3e51504.php 第 68 行.
+NOTIC: [8] Undefined index: rec_status F:\www\one\Runtime\Cache\Admin\384419fad210068332edd7f4d3e51504.php 第 68 行.
+NOTIC: [8] Undefined index: rec_status F:\www\one\Runtime\Cache\Admin\384419fad210068332edd7f4d3e51504.php 第 68 行.
+NOTIC: [8] Undefined index: rec_status F:\www\one\Runtime\Cache\Admin\384419fad210068332edd7f4d3e51504.php 第 68 行.
+NOTIC: [8] Undefined index: rec_status F:\www\one\Runtime\Cache\Admin\384419fad210068332edd7f4d3e51504.php 第 68 行.
+NOTIC: [2] Division by zero F:\www\one\ThinkPHP\Library\Think\Page.class.php 第 84 行.
+NOTIC: [8] Undefined variable: v F:\www\one\Runtime\Cache\Admin\384419fad210068332edd7f4d3e51504.php 第 111 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
